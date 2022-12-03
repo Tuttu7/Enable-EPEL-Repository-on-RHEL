@@ -16,6 +16,7 @@ rhui-client-config-server-9  Red Hat Enterprise Linux 9 Client Configuration
 ```
 
 #### Checking if an updated version of package is available for the packages existing in our system.
+```
 
 [root@ip-172-31-84-51 ~]# dnf check-update
 
@@ -35,7 +36,7 @@ python3.x86_64                                 3.9.14-1.el9_1.1       rhel-9-bas
 python3-libs.x86_64                            3.9.14-1.el9_1.1       rhel-9-baseos-rhui-rpms   
 redhat-cloud-client-configuration.noarch       1-10.el9_0             rhel-9-appstream-rhui-rpms
 tzdata.noarch                                  2022f-1.el9_1          rhel-9-baseos-rhui-rpms 
-
+```
 
 
 #### We first update the available package on our system for installing the EPEL repository:
